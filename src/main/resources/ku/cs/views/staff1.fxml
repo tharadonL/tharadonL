@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" styleClass="wallpaper" stylesheets="@../../../values/color.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ku.cs.controllers.StaffAssetsMainController">
+   <children>
+      <Button layoutX="726.0" layoutY="552.0" mnemonicParsing="false" onAction="#onStaff2NextButton" text="Next">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <ListView fx:id="assetsListView" editable="true" layoutX="365.0" layoutY="144.0" prefHeight="358.0" prefWidth="388.0" />
+      <Label layoutX="511.0" layoutY="25.0" text="ครุภัณฑ์">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Button layoutX="400.0" layoutY="535.0" mnemonicParsing="false" onAction="#Staff3Button" prefWidth="80.0" text="Lend">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="591.0" layoutY="535.0" mnemonicParsing="false" onAction="#Staff5Button" prefWidth="80.0" text="Add">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <AnchorPane layoutY="1.0" prefHeight="600.0" prefWidth="335.0" style="-fx-background-color: lightgreen;">
+         <children>
+            <Button layoutX="7.0" layoutY="7.0" mnemonicParsing="false" onAction="#onHelloBackButton" text="Back">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Label fx:id="SerialNumberLabel" layoutX="95.0" layoutY="58.0" text="SerialNumberLabel">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="NameLabel" layoutX="163.0" layoutY="323.0" text="NameLabel">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="CategoryLabel" layoutX="163.0" layoutY="361.0" text="CategoryLabel">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="163.0" layoutY="399.0" text="DateTimeAddLabel">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="163.0" layoutY="437.0" text="DateTimeLendLabel">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="163.0" layoutY="475.0" text="StatusLabel">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="163.0" layoutY="513.0" text="PlaceLabel">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="163.0" layoutY="551.0" text="OwnerLabel">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="userImageView" fitHeight="150.0" fitWidth="200.0" layoutX="40.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true" />
+            <Label layoutX="25.0" layoutY="323.0" text="ชื่อ:">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="25.0" layoutY="361.0" text="หมวดหมู่:">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="25.0" layoutY="399.0" text="เวลาซื้อ:">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="26.0" layoutY="437.0" text="เวลาครอบครอง:">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="25.0" layoutY="475.0" text="สถานะ:">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="25.0" layoutY="513.0" text="จัดเก็บ:">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="25.0" layoutY="551.0" text="ผู้ครอบครอง:">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <TextField layoutX="365.0" layoutY="83.0" prefHeight="35.0" prefWidth="280.0" />
+      <Button layoutX="671.0" layoutY="84.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="83.0" text="search">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollBar?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ku.cs.controllers.AssetsOwnedController">
+   <children>
+      <Button layoutX="12.0" layoutY="17.0" mnemonicParsing="false" onAction="#OnBackButton" text="Back">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="290.0" layoutY="14.0" text="Assets Owned">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="images1" fitHeight="100.0" fitWidth="100.0" layoutX="136.0" layoutY="108.0" pickOnBounds="true" preserveRatio="true" />
+      <CheckBox fx:id="RefundAssets1" layoutX="137.0" layoutY="375.0" mnemonicParsing="false" text="Refund">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </CheckBox>
+      <Label layoutX="136.0" layoutY="212.0" text="ID :&#10;Name :&#10;Category :&#10;Status :&#10;Location :&#10;Owner :">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="images1" fitHeight="100.0" fitWidth="100.0" layoutX="348.0" layoutY="108.0" pickOnBounds="true" preserveRatio="true" />
+      <CheckBox fx:id="RefundAssets1" layoutX="349.0" layoutY="375.0" mnemonicParsing="false" text="Refund">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </CheckBox>
+      <Label layoutX="348.0" layoutY="212.0" text="ID :&#10;Name :&#10;Category :&#10;Status :&#10;Location :&#10;Owner :">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="images1" fitHeight="100.0" fitWidth="100.0" layoutX="552.0" layoutY="108.0" pickOnBounds="true" preserveRatio="true" />
+      <CheckBox fx:id="RefundAssets1" layoutX="553.0" layoutY="375.0" mnemonicParsing="false" text="Refund">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </CheckBox>
+      <Label layoutX="552.0" layoutY="212.0" text="ID :&#10;Name :&#10;Category :&#10;Status :&#10;Location :&#10;Owner :">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ScrollBar layoutX="767.0" layoutY="15.0" orientation="VERTICAL" prefHeight="575.0" prefWidth="20.0" />
+      <Button layoutX="14.0" layoutY="546.0" mnemonicParsing="false" onAction="#OnConfirmButton" text="Confirm">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="IdLabel" layoutX="227.0" layoutY="212.0" text="IdLabel">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="NameLabel" layoutX="227.0" layoutY="239.0" text="NameLabel">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="CategoryLabel" layoutX="227.0" layoutY="266.0" text="CategoryLabel">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="StatusLabel" layoutX="227.0" layoutY="293.0" text="StatusLabel">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="LocationLabel" layoutX="227.0" layoutY="320.0" text="LocationLabel">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="OwnerLabel" layoutX="227.0" layoutY="347.0" text="OwnerLabel">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
